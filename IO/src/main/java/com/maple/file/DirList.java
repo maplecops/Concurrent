@@ -30,11 +30,9 @@ public class DirList {
         });
 
         Arrays.sort(javaFileList, String.CASE_INSENSITIVE_ORDER);
-        for (String fileName : javaFileList
-        ) {
+        for (String fileName : javaFileList) {
             System.out.println(fileName);
         }
-        ;
 
     }
 
